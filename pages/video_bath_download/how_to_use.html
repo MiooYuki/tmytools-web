@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>工具箱</title>
+    <!-- plugins:css -->
+    <link rel="stylesheet" href="../../vendors/mdi/css/materialdesignicons.min.css">
+    <link rel="stylesheet" href="../../vendors/base/vendor.bundle.base.css">
+    <!-- endinject -->
+    <!-- plugin css for this page -->
+    <!-- End plugin css for this page -->
+    <!-- inject:css -->
+    <link rel="stylesheet" href="../../css/style.css">
+    <!-- endinject -->
+    <link rel="shortcut icon" href="../../images/favicon.png" />
+    <!-- jQuery -->
+    <script src="https://lf3-cdn-tos.bytecdntp.com/cdn/expire-1-M/jquery/3.6.0/jquery.min.js"
+        type="application/javascript"></script>
+</head>
+
+<body>
+    <div class="container-scroller">
+        <!-- partial:../../partials/_navbar.html -->
+        <nav class="navbar col-lg-12 col-12 p-0 fixed-top d-flex flex-row">
+            <div class="navbar-brand-wrapper d-flex justify-content-center">
+                <div class="navbar-brand-inner-wrapper d-flex justify-content-between align-items-center w-100">
+                    <a class="navbar-brand brand-logo" href="../../index.html"><img src="../../images/logo.svg"
+                            alt="logo" /></a>
+                    <a class="navbar-brand brand-logo-mini" href="../../index.html"><img
+                            src="../../images/logo-mini.svg" alt="logo" /></a>
+                    <button class="navbar-toggler navbar-toggler align-self-center" type="button"
+                        data-toggle="minimize">
+                        <span class="mdi mdi-sort-variant"></span>
+                    </button>
+                </div>
+            </div>
+            <div class="navbar-menu-wrapper d-flex align-items-center justify-content-end">
+                <ul class="navbar-nav mr-lg-4 w-100">
+                    <li class="nav-item nav-search d-none d-lg-block w-100">
+                        <div class="input-group">
+                            <div class="input-group-prepend">
+                                <span class="input-group-text" id="search">
+                                    <i class="mdi mdi-magnify"></i>
+                                </span>
+                            </div>
+                            <input type="text" class="form-control" placeholder="Search now" aria-label="search"
+                                aria-describedby="search">
+                        </div>
+                    </li>
+                </ul>
+                <ul class="navbar-nav navbar-nav-right">
+                    <li class="nav-item dropdown mr-1">
+                        <a class="nav-link count-indicator dropdown-toggle d-flex justify-content-center align-items-center"
+                            id="messageDropdown" href="#" data-toggle="dropdown">
+                            <i class="mdi mdi-message-text mx-0"></i>
+                            <span class="count"></span>
+                        </a>
+                        <div class="dropdown-menu dropdown-menu-right navbar-dropdown"
+                            aria-labelledby="messageDropdown">
+                            <p class="mb-0 font-weight-normal float-left dropdown-header">Messages</p>
+                            <a class="dropdown-item">
+                                <div class="item-thumbnail">
+                                    <img src="../../images/faces/face4.jpg" alt="image" class="profile-pic">
+                                </div>
+                                <div class="item-content flex-grow">
+                                    <h6 class="ellipsis font-weight-normal">David Grey
+                                    </h6>
+                                    <p class="font-weight-light small-text text-muted mb-0">
+                                        The meeting is cancelled
+                                    </p>
+                                </div>
+                            </a>
+                            <a class="dropdown-item">
+                                <div class="item-thumbnail">
+                                    <img src="../../images/faces/face2.jpg" alt="image" class="profile-pic">
+                                </div>
+                                <div class="item-content flex-grow">
+                                    <h6 class="ellipsis font-weight-normal">Tim Cook
+                                    </h6>
+                                    <p class="font-weight-light small-text text-muted mb-0">
+                                        New product launch
+                                    </p>
+                                </div>
+                            </a>
+                            <a class="dropdown-item">
+                                <div class="item-thumbnail">
+                                    <img src="../../images/faces/face3.jpg" alt="image" class="profile-pic">
+                                </div>
+                                <div class="item-content flex-grow">
+                                    <h6 class="ellipsis font-weight-normal"> Johnson
+                                    </h6>
+                                    <p class="font-weight-light small-text text-muted mb-0">
+                                        Upcoming board meeting
+                                    </p>
+                                </div>
+                            </a>
+                        </div>
+                    </li>
+                    <li class="nav-item dropdown mr-4">
+                        <a class="nav-link count-indicator dropdown-toggle d-flex align-items-center justify-content-center notification-dropdown"
+                            id="notificationDropdown" href="#" data-toggle="dropdown">
+                            <i class="mdi mdi-bell mx-0"></i>
+                            <span class="count"></span>
+                        </a>
+                        <div class="dropdown-menu dropdown-menu-right navbar-dropdown"
+                            aria-labelledby="notificationDropdown">
+                            <p class="mb-0 font-weight-normal float-left dropdown-header">Notifications</p>
+                            <a class="dropdown-item">
+                                <div class="item-thumbnail">
+                                    <div class="item-icon bg-success">
+                                        <i class="mdi mdi-information mx-0"></i>
+                                    </div>
+                                </div>
+                                <div class="item-content">
+                                    <h6 class="font-weight-normal">Application Error</h6>
+                                    <p class="font-weight-light small-text mb-0 text-muted">
+                                        Just now
+                                    </p>
+                                </div>
+                            </a>
+                            <a class="dropdown-item">
+                                <div class="item-thumbnail">
+                                    <div class="item-icon bg-warning">
+                                        <i class="mdi mdi-settings mx-0"></i>
+                                    </div>
+                                </div>
+                                <div class="item-content">
+                                    <h6 class="font-weight-normal">Settings</h6>
+                                    <p class="font-weight-light small-text mb-0 text-muted">
+                                        Private message
+                                    </p>
+                                </div>
+                            </a>
+                            <a class="dropdown-item">
+                                <div class="item-thumbnail">
+                                    <div class="item-icon bg-info">
+                                        <i class="mdi mdi-account-box mx-0"></i>
+                                    </div>
+                                </div>
+                                <div class="item-content">
+                                    <h6 class="font-weight-normal">New user registration</h6>
+                                    <p class="font-weight-light small-text mb-0 text-muted">
+                                        2 days ago
+                                    </p>
+                                </div>
+                            </a>
+                        </div>
+                    </li>
+                </ul>
+                <button class="navbar-toggler navbar-toggler-right d-lg-none align-self-center" type="button"
+                    data-toggle="offcanvas">
+                    <span class="mdi mdi-menu"></span>
+                </button>
+            </div>
+        </nav>
+        <!-- partial -->
+        <div class="container-fluid page-body-wrapper">
+
+            <!-- 侧边菜单 -->
+            <nav class="sidebar sidebar-offcanvas" id="sidebar">
+                <ul class="nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="../../index.html">
+                            <i class="mdi mdi-home menu-icon"></i>
+                            <span class="menu-title">Dashboard</span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../department-data-export/department-data-export.html">
+                            <i class="mdi mdi-file-document-box-outline menu-icon"></i>
+                            <span class="menu-title">部门数据导出</span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../video_bath_download/video_batch_download.html">
+                            <i class="mdi mdi-download text-muted menu-icon"></i>
+                            <span class="menu-title">报名视频批量下载</span>
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+            <!-- 侧边菜单 -->
+
+            <!-- partial -->
+            <div class="main-panel">
+                <div class="content-wrapper">
+                    <div class="row">
+                        <!-- 主卡片 -->
+                        <div class="col-12 grid-margin stretch-card">
+                            <div class="card">
+                                <div class="card-header">
+                                    <a href="video_batch_download.html"><button class="btn btn-light">返回</button></a>
+                                </div>
+                                <div class="card-body">
+                                    <p class="card-title">图文说明（下面有视频教程）</p>
+                                    <ol>
+                                        <li>
+                                            <p>获取Json文本。</p>
+                                            <p>以海盐为例，登录海盐的目宝，找到相应的报名活动，点击报名记录。</p>
+                                            <img class="text-center w-100 P-3 shadow" src="img/Dingtalk_20230412113436.jpg" />
+                                            <br><br>
+                                            <p>按F12打开开发者工具，依次点击 网络（Network），Fetch/XHR。</p>
+                                            <img class="text-center w-100 P-3 shadow" src="img/Dingtalk_20230412113937.jpg" />
+                                            <br><br>
+                                            <p>筛选通过的记录，右侧就会出现当次请求的记录。注意这里用作演示，下面就只选择每页显示10条信息，所以返回的数据也是10条。</p>
+                                            <img class="text-center w-100 P-3 shadow" src="img/Dingtalk_20230412121817.jpg" />
+                                            <br><br>
+                                            <p>点击这条请求记录，点击响应（Response），Ctrl + A（Mac Command + A）全选复制。</p>
+                                            <img class="text-center w-100 P-3 shadow" src="img/Dingtalk_20230412122906.jpg" />
+                                            <br><br>
+                                            <p>粘贴进输入框。</p>
+                                            <img class="text-center w-100 P-3 shadow" src="img/Dingtalk_20230412123155.jpg" />
+                                            <br><br>
+                                        </li>
+                                        <li>
+                                            <p>获取各列的 Key。</p>
+                                            <p>除了用户昵称，头像，创建日期，其他项都是由用户自定义创建的，这些自定义项的 Key 都是动态生成的，不是固定的，所以需要手动指定这些项的 Key。</p>
+                                            <p>回到活动页，依次展开 data > list > 0：</p>
+                                            <img class="text-center w-100 P-3 shadow" src="img/微信截图_20230412123757.png" />
+                                            <br><br>
+                                            <p>可以看到该活动的四个自定义项的 Key：signnew_486_0，signnew_486_1，signnew_486_2，和 signnew_486_4。</p>
+                                            <p>通过右边的值可以判断出分别对应 真实姓名，手机号，身份证号，上传的视频。</p>
+                                            <p>将 signnew_486_0 复制到 <font color="blue">姓名列 Key</font>，signnew_486_1 复制到 <font color="blue">手机号列 Key</font>，signnew_486_4 复制到 <font color="blue">媒体列 Key</font>。</p>
+                                            <p>姓名列 Key 和 手机号列 Key 用于下载的文件的命名，不填也没关系，只不过下载出来的文件名就不带姓名和手机号了。<font color="red">媒体列 Key 必须指定。</font></p>
+                                            <img class="text-center w-100 P-3 shadow" src="img/微信截图_20230412125214.png" />
+                                            <br><br>
+                                            <p>点击提交任务，会获得当次任务的 RequestKey，用于任务执行完成之后下载本次任务的压缩包，请保存好。</p>
+                                            <img class="text-center w-100 P-3 shadow" src="img/微信截图_20230412130016.png" />
+                                            <br><br>
+                                            <p>提交任务后，后台会开始进行视频的压缩打包任务。只需耐心等待任务执行完成即可。一般10条视频需要等待10分钟左右。</p>
+                                        </li>
+                                        <li>
+                                            <p>下载压缩包。</p>
+                                            <p>大致感觉任务跑完了，可以尝试点击下载压缩包按钮，如果任务执行完成，即可下载压缩包。</p>
+                                            <img class="text-center w-100 P-3 shadow" src="img/微信截图_20230412131438.png" />
+                                            <br><br>
+                                            <p>如果任务没有执行完，会提示 “任务未完成”。</p>
+                                            <img class="text-center w-100 P-3 shadow" src="img/微信截图_20230412131032.png" />
+                                            <br><br>
+                                            <p>如果压缩包下载完成，请点击删除文件按钮，删除掉存在服务器（我电脑）上的文件。</p>
+                                            <img class="text-center w-100 P-3 shadow" src="img/微信截图_20230412132329.png" />
+                                            <br><br>
+                                            <p>查看压缩包：</p>
+                                            <img class="text-center w-100 P-3 shadow" src="img/微信截图_20230412132024.png" />
+                                        </li>
+                                    </ol>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 grid-margin stretch-card">
+                            <div class="card">
+                                <div class="card-body">
+                                    <p>视频教程：</p>
+                                    <video class="w-100 p-3" src="media/2023-04-10 13-56-33.mkv" controls></video>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- 主卡片 -->
+
+                    </div>
+                </div>
+                <!-- content-wrapper ends -->
+                <!-- partial:../../partials/_footer.html -->
+                <footer class="footer">
+                    <div class="d-sm-flex justify-content-center justify-content-sm-between">
+                        <span class="text-muted text-center text-sm-left d-block d-sm-inline-block">Copyright © 2018 <a
+                                href="https://www.urbanui.com/" target="_blank">Urbanui</a>. All rights reserved.</span>
+                        <span class="float-none float-sm-right d-block mt-1 mt-sm-0 text-center">Hand-crafted & made
+                            with <i class="mdi mdi-heart text-danger"></i></span>
+                    </div>
+                </footer>
+                <!-- partial -->
+            </div>
+            <!-- main-panel ends -->
+        </div>
+        <!-- page-body-wrapper ends -->
+    </div>
+    <!-- container-scroller -->
+    <!-- plugins:js -->
+    <script src="../../vendors/base/vendor.bundle.base.js"></script>
+    <!-- endinject -->
+    <!-- inject:js -->
+    <script src="../../js/off-canvas.js"></script>
+    <script src="../../js/hoverable-collapse.js"></script>
+    <script src="../../js/template.js"></script>
+    <!-- endinject -->
+    <!-- Custom js for this page-->
+    <script src="../../js/file-upload.js"></script>
+    <script src="../../js/jquery.fileDownload.min.js"></script>
+    <!-- End custom js for this page-->
+</body>
+
+</html>
